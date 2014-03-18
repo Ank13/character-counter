@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $('#user-text').on('keyup keydown', function(){
     updateCounts()
   })
@@ -9,9 +8,7 @@ $(document).ready(function(){
     $('#user-text').val('')
     updateCounts()
   })
-
 });
-
 
 function updateCounts(){
  
