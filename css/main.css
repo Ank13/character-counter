@@ -14,3 +14,11 @@ body{
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   background: #ecf0f1;
 }
+
+.the-count{
+  font-size: 1.4em;
+  font-weight: 800;
+  background-color: #ecf0f1;
+  color: #e74c3c;
+  padding: 2px;
+}
