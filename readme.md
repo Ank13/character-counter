@@ -1,0 +1,1 @@
+http://ank13.github.io/character-counter/
