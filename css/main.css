@@ -1,0 +1,16 @@
+.box1{
+  padding: .5em;
+}
+
+body{
+  background-color: #e74c3c;
+  color: #fff;
+  text-align: center;
+}
+
+.button-main {
+  color: #e74c3c;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #ecf0f1;
+}
