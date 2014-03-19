@@ -20,7 +20,6 @@ $(document).ready(function(){
     var trash = '<a href="#" class="delete">Delete</a>'
     var pasteIn = '<p><span>' + text + '</span>' + count + restore + trash + '</p>'
     $('#saved-text').prepend(pasteIn)
-    $('#user-text').val('')
     updateCounts()
   })
 
