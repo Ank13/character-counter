@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+  $('#button-group').hide(0)
+
   $('#user-text').on('keyup keydown', function(){
     updateCounts()
   })
@@ -48,4 +51,10 @@ function updateCounts(){
  var charactersOnly = $('#user-text').val().replace(/ /g,'').length
  $('#char-only').html(charactersOnly)
 
+ if (totalCharacters === 0) {
+  $('#button-group').fadeOut()
+ }
+ else {
+  $('#button-group').fadeIn()
+ }
 }
