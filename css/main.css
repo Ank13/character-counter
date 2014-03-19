@@ -20,12 +20,17 @@ body{
   background: #ecf0f1;
 }
 
+a{
+  color: #ecf0f1;
+  font-size: .8em;
+}
+
 .the-count{
   font-size: 1.4em;
   font-weight: 800;
   background-color: #ecf0f1;
   color: #e74c3c;
-  padding: 2px;
+  padding: 2px 4px;
   margin-right: 1em;
 }
 
