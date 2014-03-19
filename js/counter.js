@@ -33,6 +33,11 @@ $(document).ready(function(){
     $(this).parent().html('')
   })
 
+  $('#copy').on('click', function(event){
+    event.preventDefault()
+    $('#user-text').select()
+  })
+
 });
 
 function updateCounts(){
